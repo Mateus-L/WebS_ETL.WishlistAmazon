@@ -11,8 +11,8 @@ produtos = []
 c= 0
 
 #driver
-driver = webdriver.Chrome(executable_path=r'C:\chromedriver.exe') #Selecione o local file do webdriver
-driver.get('https://www.amazon.com.br/hz/wishlist/ls/------Type=grid') #Cole o link de uma lista publica em modo "Grid"
+driver = webdriver.Chrome(executable_path=r'C:-------------\chromedriver.exe') #Local file do webdriver
+driver.get('https://www.amazon.com.br/hz/wishlist/ls/------') #Link de uma lista publica
 time.sleep(1.5)
 driver.find_element_by_xpath('/html/body/div[1]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/div/div[1]/span[2]/a/div[1]/span'
                             ).click()
